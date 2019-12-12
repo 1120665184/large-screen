@@ -40,7 +40,7 @@ export default {
   font-size: 1.7vw;
   height: 80%;
   letter-spacing: 0.7vw;
-  
+
 }
 .userShowList > li .titleList > li {
   height: 25%;

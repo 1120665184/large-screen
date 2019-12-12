@@ -60,94 +60,94 @@ export default {
       navPageLists: [
         {
           title: "常态监控",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/view.png",
-          pathBtn: "/view/NormalState"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/view.png",
+          pathBtn: `/${this.$config.view.route_pre}/NormalState`
         },
         {
           title: "应急处置",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/hurry.png",
-          pathBtn: "/view/NormalState"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/hurry.png",
+          pathBtn: `/${this.$config.view.route_pre}/NormalState`
         },
         {
           title: "警情研判",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/jingqing.png",
-          pathBtn: "/view/Warning"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/jingqing.png",
+          pathBtn: `/${this.$config.view.route_pre}/Warning`
         },
         {
           title: "情报舆情",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/yuqing.png",
-          pathBtn: "/view/PublicMsg"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/yuqing.png",
+          pathBtn: `/${this.$config.view.route_pre}/PublicMsg`
         },
         {
           title: "交通大数据",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/trafic.png",
-          pathBtn: "/view/Trafic"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/trafic.png",
+          pathBtn: `/${this.$config.view.route_pre}/Trafic`
         },
         {
           title: "治安大数据",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/zhian.png",
-          pathBtn: "/view/Security"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/zhian.png",
+          pathBtn: `/${this.$config.view.route_pre}/Security`
         },
         {
           title: "欢迎页",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/welcome.png",
-          pathBtn: "/view/welcome"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/welcome.png",
+          pathBtn: `/${this.$config.view.route_pre}/welcome`
         },
          {
           title: "县局展示页",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/zhian.png",
-          pathBtn: "/view/welcome"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/zhian.png",
+          pathBtn: `/${this.$config.view.route_pre}/welcome`
         },
         {
           title: "区域安保",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/anbao.png",
-          pathBtn: "/view/welcome"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/anbao.png",
+          pathBtn: `/${this.$config.view.route_pre}/welcome`
         },
          {
           title: "视频监控",
-          imgSrc: "/statics/img/homeBtn/footer.png",
-          imgSrc1: "/statics/img/homeBtn/shipin.png",
-          pathBtn: "/view/welcome"
+          imgSrc: "statics/img/homeBtn/footer.png",
+          imgSrc1: "statics/img/homeBtn/shipin.png",
+          pathBtn: `/${this.$config.view.route_pre}/welcome`
         }
       ],
       navSysLists: [
         {
           title: "文档",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/txt.png",
-          pathBtn: "/manager/login"
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/txt.png",
+          pathBtn: `/manager/login`
         },
         {
           title: "管理后台",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/backSys.png",
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/backSys.png",
           pathBtn: "/manager/login"
         },
         {
           title: "系统桌面",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/desk.png",
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/desk.png",
           pathBtn: "/manager/login"
         },
         {
           title: "应用",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/sys.png",
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/sys.png",
           pathBtn: "/manager/login"
         },
         {
           title: "高分地图",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/map.png",
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/map.png",
           pathBtn: "/manager/login"
         },
         // {
@@ -157,8 +157,8 @@ export default {
         // },
         {
           title: "帮助",
-          imgSrc: "/statics/img/userBtn/btnlogo.png",
-          imgSrc1: "/statics/img/userBtn/help.png",
+          imgSrc: "statics/img/userBtn/btnlogo.png",
+          imgSrc1: "statics/img/userBtn/help.png",
           pathBtn: "/manager/login"
         }
       ]
@@ -326,8 +326,8 @@ export default {
 	height: 0.5vw;
 	border-radius: 100%;
 	border-bottom: 0 solid #ffffff05;
-	
-	box-shadow: 
+
+	box-shadow:
 		/* 0 -10px 20px 20px #ffffff40 inset,
 		0 -5px 15px 10px #ffffff50 inset,
 		0 -2px 5px #ffffff80 inset,

@@ -24,7 +24,7 @@ export default {
     return {
       chDate: "",
       datetime: new Date(),
-      
+
     };
   },
   computed: {
@@ -34,11 +34,12 @@ export default {
     setInterval(() => {
       this.datetime = new Date();
     }, 1000);
+    this.getTq()
   },
   methods: {
     ...mapActions(['getTq']),
-  
-  
+
+
   }
 };
 </script>
